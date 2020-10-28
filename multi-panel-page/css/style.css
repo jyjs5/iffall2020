@@ -75,7 +75,7 @@ p{
 .three{
     background-color: rgb(197, 239, 255);
     padding-top: 1px;
-    padding-bottom: 120px;
+    padding-bottom: 80px;
     color:rgb(57, 97, 124);
 }
 .last-paragraph{
@@ -86,9 +86,9 @@ p{
     padding: 15px;
 }
 footer{
-    font-size:14pt;
-    color:white;
+    font-size:13.5pt;
+    color:rgb(122, 122, 122);
     background-color: paleturquoise;
-    padding: 15px;
+    padding: 40px;
 }
 
