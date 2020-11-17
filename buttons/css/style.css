@@ -345,7 +345,8 @@
                 transition: all 0.5s;
             }
             a#btn_botanical:hover {
-                border: 2.5pt dotted green;
+                padding:10px;
+                border: 3.5pt dotted green;
                 transition: all 0.2s;
             }
             a#btn_nerf #bwnerf{
