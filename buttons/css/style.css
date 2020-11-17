@@ -308,13 +308,14 @@
             }
             a#btn_fb {
                 display: block;
-                color:rgb(45, 83, 252);
+                color:grey;
                 font-size: 55pt;
                 margin:70px;
 
             }
             a#btn_fb:hover{
-            text-shadow: 4px 3px 2px rgba(150, 150, 150, 1);
+                color:rgb(45, 83, 252);
+                text-shadow: 4px 3px 2px rgba(150, 150, 150, 1);
             }
             a#btn_tesla {
                 text-decoration: none;
