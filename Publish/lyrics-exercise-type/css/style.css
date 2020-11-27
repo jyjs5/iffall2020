@@ -1,0 +1,36 @@
+html{
+    text-align: center;
+    font-family:'Ubuntu', sans-serif;
+    margin: 25%;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    background: rgb(16,43,56);
+    background: radial-gradient(circle, rgba(16,43,56,1) 11%, rgba(29,73,108,1) 43%, rgba(75,147,187,1) 100%);}
+
+   
+p{
+   font-size: 13pt; 
+   color:rgb(211, 236, 253) ;
+}
+b{
+    font-size: 15pt;
+    line-height: 1.4;
+    font-weight: bold;
+}
+h1{
+    font-family:Verdana, Tahoma, sans-serif; 
+    font-size: 50pt; 
+    color: rgb(211, 236, 253);
+}
+small{
+    margin: 2.5em 0;
+ font-size: 7pt;
+ font-family:Verdana, Tahoma, sans-serif;
+ color:#ffff ;
+}
+img{
+    border-image-repeat: repeat;
+}
+br {
+    line-height:100px;
+}
