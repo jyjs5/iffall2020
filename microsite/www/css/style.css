@@ -1,0 +1,140 @@
+html{
+    font-family: Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif; 
+    margin: 40px 50px 70px;
+
+}
+header nav li{
+    display: inline-block;
+    vertical-align: top;
+    padding-left: 1rem;
+    margin-left: 1rem;
+    transition:all 0.35s;
+}
+header nav li:hover{
+    text-shadow:0px 0px 1px rgb(255, 4, 4);
+}
+.vogue_logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+a{
+    color:black;
+    text-decoration: none;
+    font-size: 10pt;
+}
+hr{
+    width:100%;
+}
+body{
+    padding-left: 10px;
+}
+h1{
+    text-align: center;
+    margin-top: 10px;
+   font-size: 35pt;
+   font-weight: lighter;
+}
+h2{
+    font-family: sans-serif;
+    color:rgb(151, 0, 0);
+    font-size: 16pt;
+    font-weight: normal;
+    padding-top: 10px;
+}
+.grid1{
+    width: 25%;
+    display: flex;
+    grid-column-gap: 30px;
+}
+
+li{   
+    list-style-type: none;
+    font-weight: lighter;
+    font-size: 14pt;
+    padding-top: 10px;
+}
+.harry{
+    width: 1500px;
+    height: 650px;
+    padding-top: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+h4{
+    font-size: 30pt;
+}
+.para{
+    margin:10px;
+    font-size: 12pt;
+    padding: 15px;
+    width: 80%;
+}
+.typo{
+    float:left;
+}
+.typ {
+    display:wrap;
+    margin:10px;
+    font-size: 11pt;
+    padding: 15px;
+    width: 80%;
+    text-align: justify;
+}
+.container{
+    position: relative;
+    text-align: center;
+    color:white;
+}
+.anna{
+    position: absolute;
+    top: 15px;
+    left:300px;
+    color:white;
+    font-size:60pt;
+}
+.icon_para{
+    margin:30px;
+    font-size: 12pt;
+    padding: 50px;
+}
+.Vogue{
+    color:red;
+    font-weight: bold;
+    font-size: 30pt;
+}
+.ep{
+    font-weight: bold;
+    font-size: 25pt;
+}
+.paraF{
+    margin:50px;
+    font-size: 12pt;
+    width: 70%;
+    padding: 15px;
+}
+.what{
+    color: black;
+    font-size: 30pt;
+    font-weight: bold;
+}
+.grid_i{
+    width: 25%;
+    display: flex;
+    grid-column-gap: 30px;
+}
+.outline{
+    display: inline-block;
+    padding:30px;
+    background-origin: padding-box;
+    line-height: 2;
+}
+.outline:hover {
+    color:red;
+    
+}
+  
+
