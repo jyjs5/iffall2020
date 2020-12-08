@@ -1,0 +1,513 @@
+
+
+			body {
+				color: #333;
+				font-family: 'Open Sans', sans-serif;
+				margin: 0;
+				padding: 0;
+			}
+
+			main {
+				margin: 40px;
+			}
+
+			h1 {
+			 	font-size: 30px;
+			 	margin-bottom: 40px;
+			}
+
+			.button_container {
+				border: 1px solid #ddd;
+				margin: 0 10px 10px 0;
+				padding: 20px;
+				width: 300px;
+				height: 300px;
+				float: left;
+				overflow: hidden;
+				box-sizing: border-box;
+				text-align: center;
+			}
+			a#btn_spotify {
+				display: inline-block;
+				height: 50px;
+				box-sizing: border-box;
+				border-radius: 25px;
+				margin: auto;
+				margin-top: 100px;
+				padding: 10px 40px 0 40px;
+				background-color: #2ebd59;
+				border: 2px solid #2ebd59;
+				color: #fff;
+				font-size: 20px;
+				font-family: 'Montserrat', sans-serif;
+				font-weight: bold;
+				text-decoration: none;
+				transition: all .5s;
+			}
+
+			a#btn_spotify:hover {
+				background-color: #fff;
+				border: 2px solid #000;
+				color: #000;
+			}
+
+			a#btn_amazon {
+				display: block;
+				width: 100px;
+				height: 100px;
+				box-sizing: border-box;
+				border-radius: 50px;
+				margin: auto;
+				margin-top: 75px;
+				padding-top: 8px;
+				background-color: #232f3e;
+				color: #fff;
+				text-align: center;
+				font-size: 60px;
+				transition: all .2s;
+			}
+
+			a#btn_amazon:hover {
+				background-color: #fc9a18;
+			}
+
+			a#btn_twitter {
+				display: inline-block;
+				height: 40px;
+				box-sizing: border-box;
+				border-radius: 4px;
+				margin: auto;
+				margin-top: 105px;
+				padding: 10px 30px 0 30px;
+				background-color: #56cdf1;
+				color: #fff;
+				font-size: 18px;
+				font-family: 'Arial', sans-serif;
+				font-weight: bold;
+				text-decoration: none;
+			}
+
+			a#btn_twitter:hover {
+
+				/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#2ebfec+0,28a5cb+100 */
+				background: rgb(46,191,236); /* Old browsers */
+				background: -moz-linear-gradient(-45deg,  rgba(46,191,236,1) 0%, rgba(40,165,203,1) 100%); /* FF3.6-15 */
+				background: -webkit-linear-gradient(-45deg,  rgba(46,191,236,1) 0%,rgba(40,165,203,1) 100%); /* Chrome10-25,Safari5.1-6 */
+				background: linear-gradient(135deg,  rgba(46,191,236,1) 0%,rgba(40,165,203,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+				filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2ebfec', endColorstr='#28a5cb',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+			}
+
+			a#btn_indiegogo {
+				display: inline-block;
+				position: relative;
+				margin:auto;
+				margin-top: 100px;
+				padding: 8px 16px;
+				background-color: #fff;
+				color: #eb1478;
+				font-family: 'Ubuntu', sans-serif;
+				font-size: 30px;
+				font-weight: bold;
+				text-transform: uppercase;
+				text-decoration: none;
+				letter-spacing: -2px;
+				transition: all .2s;
+			}
+
+			a#btn_indiegogo:before {
+				content: "";
+				display: block;
+				width: 0;
+				height: 0;
+				z-index: 1;
+				position: absolute;
+				top: 50%;
+				left: 50%;
+				background-color: #eb1478;
+				transition: all .5s;
+			}
+
+			a#btn_indiegogo:hover {
+				color: #fff;
+			}
+
+			a#btn_indiegogo:hover:before {
+				width: 100%;
+				height: 100%;
+				left: 0;
+				top: 0;
+			}
+
+			a#btn_indiegogo span {
+				position: relative;
+				z-index: 10;
+            }
+            a#btn_samsung #sam1{
+                display: inline-block;
+                width: 100%;
+                margin-top: 0px;
+               z-index: 0;
+               margin-top: 80px
+            }
+            a#btn_samsung:hover #sam1{
+                width:0%;
+            }
+            a#btn_samsung:hover #samOut{
+                width:0%;
+            }
+            a#btn_samsung:hover #samOut{
+                display: block;
+                transition: transform 0.5s;
+                width: 100%;
+                margin:-20px 0;
+            }
+
+            a#btn_nike{
+                display: inline-block;
+                text-decoration: none;
+                font-size: 25pt;
+                font-weight: 900;
+                color:black;
+                transition: transform 0.05s, color 0.2s;
+            }
+            a#btn_nike #nikeBlack{
+                text-decoration: none;
+                width: 55%;
+                margin-top:70px;
+                transition: transform 0.05s, color 0.2s;
+            }
+            a#btn_nike:hover #nikeBlack{
+                margin:auto;
+                transition: .5s;
+            }
+            a#btn_nike:hover{
+                color:orange;
+            }
+
+            a#btn_michealKors{
+                text-decoration: none;
+                display: inline-block;
+                margin:70px;
+                color: rgb(194, 173, 137);
+                font-size: 50pt;
+                font-weight: bold;
+                transition: transform 0.05s, color 0.2s;
+            }
+            a#btn_michealKors:hover {
+                color:bisque;
+                text-shadow: 5px 1px 2px rgba(150, 150, 150, 1);
+            }
+            a#btn_ibm img{
+                display: inline-block;
+                margin-top:70px;
+            }
+            a#btn_ibm:hover img{
+                border: 5px double rgb(66, 94, 189);
+                transition: 0.2s;
+            }
+           
+            a#btn_cocaCola img{
+                display: block;
+                margin-top:0px;
+            }
+             
+            a#btn_cocaCola {
+                display: inline-block;
+                font-size: 20pt;
+                text-decoration: none;
+                color:white;
+            }
+            a#btn_cocaCola:hover span{
+                font-weight: bold;
+                color: rgb(207, 2, 2);
+                transition:all 0.8s;
+            }
+            a#btn_cocaCola:hover img{
+                margin-top: 0px;
+                transition:all 0.5s;
+            }
+            a#btn_fitbit img{
+                display: block;
+                margin-top:50px;
+                margin-left:50px;
+            }
+            a#btn_fitbit span{
+                display:inline-block;
+                margin-top:0px;
+                font-weight: normal;
+                text-decoration: none;
+                color:white;
+            }
+            a#btn_fitbit:hover span{
+                display: inline-block;
+                text-decoration: none;
+                font-size: 25pt;
+                margin-top:0px;
+                font-weight: normal;
+                color:rgb(61, 142, 168);
+                transition: all 0.5s;
+            }
+           
+            a#btn_fitbit:hover{
+                margin-top:0px;
+                transition: all 0.05s;
+            }
+
+            a#btn_instagram{
+                display: block;
+                color:rgb(87, 25, 60);
+                font-size: 70pt;
+                margin:70px;
+                transition: all 0.5s;
+            }
+            a#btn_instagram:hover {
+                background: linear-gradient(221deg, rgba(26,45,208,1) 0%, rgba(131,58,180,1) 22%, rgba(253,29,29,1) 79%, rgba(252,176,69,1) 95%, rgba(255,247,82,1) 100%);
+                -webkit-text-fill-color: transparent;
+                -webkit-background-clip: text;
+            }
+            a#btn_instagram img{
+                color:rgba(255, 255, 255, 0);
+            }
+            a#btn_instagram:hover img{
+                margin-top:10px;
+            }
+
+            a#btn_ny img{
+                display: inline-block;
+                margin-top:70px; 
+            }
+            a#btn_ny:hover img{
+                transition: all 0.3s;
+                border-bottom: 9pt double black;
+            }
+            a#btn_oldNavy{
+                display:inline-block;
+                font-size: 20pt;
+                font-weight: bolder;
+                text-decoration: none;
+                color:#1d225a;
+                margin:0px 0px 10px; 
+            }
+
+            a#btn_oldNavy .oval{
+                display: inline-block;
+				height: 60px;
+				box-sizing: border-box;
+				border-radius:100px/50px;
+				margin: auto;
+				margin-top: 100px;
+				padding: 10px 40px 10px 40px;
+                border: 5px solid #1d225a;
+                transition: transform 0.05s, color 0.2s;
+            }
+            a#btn_oldNavy:hover .oval{
+                background-color:  #1d225a;
+            }
+            a#btn_oldNavy:hover{
+                color:white;
+            }
+            a#btn_fb {
+                display: block;
+                color:grey;
+                font-size: 55pt;
+                margin:70px;
+
+            }
+            a#btn_fb:hover{
+                color:rgb(45, 83, 252);
+                text-shadow: 4px 3px 2px rgba(150, 150, 150, 1);
+            }
+            a#btn_tesla {
+                text-decoration: none;
+                color:red;
+                font-size: 25pt;
+                font-weight: bold;
+                display: inline-block;
+                margin-top:10px;
+                font-family: Verdana, Tahoma, sans-serif;
+                transition: all 0.5s;
+            }
+            a#btn_tesla:hover {
+                text-shadow:8px 5px 5px rgba(255, 150, 150, 1);;
+            }
+
+            a#btn_botanical{
+                text-decoration: none;
+                font-size: 17pt;
+                color:rgb(64, 138, 64);
+                display: inline-block;
+                margin:70px;
+               transition: transform 0.5s color 0.8s;
+            }
+            a#btn_botanical:hover .fa-pagelines{
+                color:rgb(3, 212, 3);
+                font-size: 25pt;
+                transition: all 0.5s;
+            }
+            a#btn_botanical:hover {
+                padding:10px;
+                border: 3.5pt dotted green;
+                transition: all 0.2s;
+            }
+            a#btn_nerf #bwnerf{
+                opacity: 10; 
+                margin:70px 0 0 0;
+            }
+            a#btn_nerf:hover #bwnerf{
+                transform: translate(-50%, 50%);
+                opacity: 0; 
+                margin:-20px;
+            }
+            a#btn_nerf span{
+                transform: translate(-50%, 50%);
+                opacity: 0; 
+                margin:0px;
+            }
+            a#btn_nerf:hover span{
+                transform: translate(-50%, 50%);
+                z-index: 10;
+                opacity:1; 
+                margin:100px 20px 0px 10px;
+                transition: all 0.5s;
+            }
+            a#btn_stJude {
+                font-family: 'Times New Roman', Times, serif;
+                text-decoration: none;
+                display: inline-block;
+                margin:70px;
+                color:rgb(153, 0, 0);
+                font-size: 20pt;
+                transition: all 0.01s;
+            }
+            a#btn_stJude:hover span{
+                color:white;
+            }
+            a#btn_stJude:hover .fa-hospital-o{
+                font-size: 80pt;
+                transition: all 0.5s;
+            }
+
+            a#btn_apple .fa-apple{
+                display: inline-block;
+                width:150px;
+                height:150px;
+                font-size: 75pt;
+                margin:50px 20px 0px 20px;
+                transition: transform 0.05s, color 0.2s;
+            }
+            a#btn_apple{
+                margin-top:0px;
+                text-decoration: none;
+                font-size: 20pt;
+                color:black;
+                display:block;
+            }
+            
+            a#btn_apple:hover .fa-apple{
+                color:gray;
+            }
+            a#btn_army{
+                display: inline-block;
+                margin:70px;
+                text-decoration: none;
+                color:rgb(20, 70, 8);
+                font-size: 25pt;
+                font-weight: bolder;
+            }
+           
+            a#btn_army:hover .rectangle{
+                box-shadow: 0 0 40px rgb(255, 255, 0);
+                transition: all .5s;
+                background-color: black;
+                width:100px;
+                height: 50px;
+                color:white;
+            }
+            a#btn_lyft {
+                display: inline-block;
+                text-decoration: none;
+                font-size: 25pt;
+                font-weight: bold;
+                margin:57px;
+              
+            }
+            a#btn_lyft span{
+                position:absolute;
+                color:white;
+                z-index: 1;
+                transform:translate(-50%, 50%);
+                margin-top:30px;
+                margin-left:73px;
+            }
+            a#btn_lyft .fa-car{
+                font-size: 100pt;
+                color: rgb(255, 0, 200);
+            }
+            a#btn_lyft:hover .fa-car{
+                color:black;
+                text-shadow:0px 0px 40px rgb(255, 0, 144);
+            }
+
+            a#btn_tucker{
+                display: inline-block;
+                margin:70px;
+                text-decoration: none;
+                color:rgb(63, 71, 112);
+                font-family: 'Times New Roman', Times, serif;
+                font-size: 25pt;
+            }
+            a#btn_tucker .fa-leaf{
+                color:black;
+                font-size: 40pt;
+            }
+
+            a#btn_tucker:hover .fa-leaf{
+                background:  linear-gradient(19deg, rgba(28,208,26,1) 0%, rgba(137,180,58,1) 25%, rgba(255,207,82,1) 57%, rgba(252,176,69,1) 68%, rgba(253,29,29,1) 100%);
+                -webkit-text-fill-color: transparent;
+                -webkit-background-clip: text;
+            }
+            a#btn_cn{
+                display: inline-block;
+                margin:70px 0;
+                text-decoration: none;
+                color:white;
+            }
+            a#btn_cn:hover {
+                color:black;
+                font-size: 12pt;
+                font-weight: bolder;
+                transition:all 0.5s;
+            }
+            a#btn_bike{
+                display: inline-block;
+                padding:0px 10px 50px;
+                margin:110px 0px 70px 0px;
+                text-decoration: none;
+                color:black;
+                font-size: 25pt;
+                font-style: italic;
+                font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+                font-weight: bold;
+            }
+            a#btn_bike:hover .oval{
+                display: inline-block;
+                margin-top:-20px;
+                height: 60px;
+				box-sizing: border-box;
+				border-radius:2px/1px;
+				padding: 10px 10px 0px 10px;
+                background-color: rgb(98, 184, 218);
+                transition: all 0.5s;
+            }
+            a#btn_bike:hover {
+                color:white;
+                transition: all 0.2s;
+            }
+
+
+
+
+
+
+
+		

@@ -1,0 +1,79 @@
+body{
+    font-family: 'Crimson Text', serif;
+    color:rgb(75, 54, 9);
+    background-color: papayawhip;
+    margin: auto;
+    max-width:960pt;
+    min-width:320pt;
+    width:80%;
+}
+h1{
+    font-size:50pt;
+    text-align: center;
+}
+p{
+    border: 10px double white;
+    padding: 15px;
+    text-align: center;
+    margin-bottom: 50px;
+
+}
+img{
+    display: block;
+    margin: auto;
+    width:90%;
+}
+h2{
+    font-size:25pt;
+    margin-bottom:0;
+}
+div.para{
+    margin:0.5px;
+    background-color: wheat;
+    display: inline-block;
+    padding:5px;
+}
+h3{
+    color: rgb(143, 105, 36);
+    font-size:14pt;
+}
+div.time{
+    color:burlywood;
+    background-color: floralwhite;
+    font-size: 15pt;
+    font-weight:bold;
+    display: inline-block;
+    text-align: center;
+    padding: 10px;
+
+}
+@media(min-width: 640px){
+    .grid{
+        display:flex;
+        margin: 10px 15px;
+    }
+}
+li{
+    font-size: 12pt;
+    list-style-type: none;
+    padding: 10px;
+}
+dt{
+    color: rgb(143, 105, 36);
+    font-weight: bold;
+    font-size: 14pt;
+}
+dd{
+    font-size: 12pt;
+
+}
+.ingredients{
+    width:45%;
+} 
+.prep{
+    width:55%;
+}
+footer{
+    padding: 20px;
+    color:rgb(165, 146, 112);
+}

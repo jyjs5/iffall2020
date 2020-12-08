@@ -1,0 +1,212 @@
+html{
+    font-family: Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif; 
+    margin: 40px 90px 70px;
+
+}
+header nav li{
+    display: inline-block;
+    vertical-align: top;
+    padding-left: 1rem;
+    margin-left: 1rem;
+    transition:all 0.35s;
+}
+header nav li:hover{
+    text-shadow:0px 0px 1px rgb(255, 4, 4);
+}
+.vogue_logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+a{
+    color:black;
+    text-decoration: none;
+    font-size: 10pt;
+}
+hr{
+    width:100%;
+}
+body{
+    padding-left: 10px;
+}
+h1{
+    text-align: center;
+    margin-top: 10px;
+   font-size: 35pt;
+   font-weight: lighter;
+}
+h2{
+    font-family: sans-serif;
+    color:rgb(151, 0, 0);
+    font-size: 16pt;
+    font-weight: normal;
+    padding-top: 10px;
+}
+.grid1{
+    width: 50%;
+    display: flex;
+    grid-column-gap:30px;
+    width:100%;
+    height:100%;
+    padding:0;
+}
+.mag_title{
+    display: flex;
+    font-size: 12pt;
+    margin-left:0px;
+    padding:0px;
+}
+.grid1 .white{
+    width:100%;
+    height:100%;
+    max-width:330px;
+    max-height:430px;
+}
+li{   
+    list-style-type: none;
+    font-weight: lighter;
+    font-size: 14pt;
+    padding-top: 10px;
+}
+.harry{
+    max-width: 1500px;
+    max-height: 650px;
+    width:100%;
+    height:100%;
+    padding-top: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+h4{
+    font-size: 30pt;
+}
+.para{
+    margin:10px;
+    font-size: 12pt;
+    padding: 15px;
+    width: 80%;
+}
+.typo{
+    float:left;
+}
+.typ {
+    display:wrap;
+    margin:10px;
+    font-size: 11pt;
+    padding: 15px;
+    width: 80%;
+    text-align: justify;
+}
+.container{
+    position: relative;
+    text-align: center;
+    color:white;
+}
+.anna{
+    position: absolute;
+    top: 15px;
+    left:300px;
+    color:white;
+    font-size:60pt;
+}
+.wint{
+    width:100%;
+    height:100%;
+    max-width:1000px;
+    max-height:700px;
+}
+.icon_para{
+    margin:30px;
+    font-size: 12pt;
+    padding: 50px;
+}
+.Vogue{
+    color:red;
+    font-weight: bold;
+    font-size: 30pt;
+}
+.ep{
+    font-weight: bold;
+    font-size: 30pt;
+}
+.paraF{
+    margin:50px;
+    font-size: 12pt;
+    width: 70%;
+    padding: 15px;
+}
+.what{
+    color: black;
+    font-size: 30pt;
+    font-weight: bold;
+}
+
+.gallery-container{
+    padding-left: 0;
+    display: flex; 
+    flex-wrap: wrap;
+    list-style-type: none;
+    grid-column-gap:30px;
+    grid-row-gap:30px;
+}
+.image{
+    max-width: 400px;
+    max-height: 550px;
+    width: 100%;
+    height: 100%;
+}
+
+
+.grid_i{
+    width: 25%;
+    display: grid;
+
+    grid-column-gap:30px;
+}
+.grid_i.covers{
+    width:100%;
+    height:100%;
+    max-width:230px;
+    max-height:300px;
+}
+
+.outline{
+    display: inline-block;
+    padding:30px;
+    background-origin: padding-box;
+    line-height: 2;
+    transition: all 0.5;
+}
+.outline1:hover {
+    text-shadow:0px 0px 1px rgb(255, 4, 4);
+}
+.outline2:hover {
+    text-shadow:0px 0px 1px rgb(255, 4, 4);
+}
+.outline3:hover {
+    text-shadow:0px 0px 1px rgb(255, 4, 4);
+}
+.outline4:hover {
+    text-shadow:0px 0px 1px rgb(255, 4, 4);
+}
+.row{
+    display: flex;
+}
+.V{
+    width:25%;
+    height:100%;
+    display: flex;
+    justify-content: center;
+}
+.words{
+    width:100%;
+}
+.Gvogue{
+    width: 70%;
+    height: auto;
+    margin: auto;
+}
+
